@@ -15,4 +15,16 @@ MonoBehaviour:
   mapname: Map1
   lv: 1
   time: 400
-  tile: []
+  tiles:
+  - id: 1
+    gameObject: {fileID: 388876489497171537, guid: 846e22de41d1e144d98af0f6760ab580,
+      type: 3}
+    chance: 1
+  - id: 2
+    gameObject: {fileID: 4816721914606352166, guid: 298b495715399f84ea0681dd5ad54674,
+      type: 3}
+    chance: 2
+  - id: 3
+    gameObject: {fileID: 2230530226155236490, guid: 09b225093279fe649924c3a9f97f9c13,
+      type: 3}
+    chance: 3

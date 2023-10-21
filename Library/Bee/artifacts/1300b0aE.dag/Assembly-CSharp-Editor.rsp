@@ -387,10 +387,8 @@
 -analyzer:"D:/Unity/2023.1.11f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"D:/Unity/2023.1.11f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Access/TutorialInfo/Scripts/Editor/ReadmeEditor.cs"
-"Assets/Editor/SettingWindow.cs"
-"Assets/Editor/SettingWindow_UIToolkit.cs"
-"Assets/Editor/testCreate.cs"
-"Assets/Editor/testEditor.cs"
+"Assets/Editor/CreateMapData.cs"
+"Assets/Editor/MapData_EditorWindow.cs"
 -langversion:9.0
 
 /deterministic

@@ -62,6 +62,8 @@
   <ItemGroup>
     <Compile Include="Assets\Access\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Script\Map\MapData.cs" />
+    <Compile Include="Assets\Script\GameMechanic\SpawnTile_Script.cs" />
+    <Compile Include="Assets\Script\GameMechanic\Tile_Script.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
