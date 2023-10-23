@@ -1,6 +1,5 @@
 using UnityEngine;
 using UnityEditor;
-using System.Diagnostics;
 
 
 public class MapData_EditorWindow : EditorWindow
@@ -22,7 +21,6 @@ public class MapData_EditorWindow : EditorWindow
     {
         GetWindow<MapData_EditorWindow>("mapData");
     }
-
 
 
     private void OnGUI()
@@ -58,17 +56,17 @@ public class MapData_EditorWindow : EditorWindow
                     EditorGUILayout.PropertyField(serializedObject.FindProperty("time"));
 
                     EditorGUILayout.Space();
+                    EditorGUILayout.LabelField("TILES POOL");;
 
-                    for(int j = 0; j < mapData[i].tiles.Count; j++)
+                    for (int j = 0; j < mapData[i].tiles.Count; j++)
                     {
-
                         SerializedProperty tileProperty = tilesProperty.GetArrayElementAtIndex(j);
                         SerializedProperty idProperty = tileProperty.FindPropertyRelative("id");
-                        SerializedProperty gameObjectProperty = tileProperty.FindPropertyRelative("gameObject");
+                        SerializedProperty tilesPrefabProperty = tileProperty.FindPropertyRelative("tilesPrefab");
                         SerializedProperty chanceProperty = tileProperty.FindPropertyRelative("chance");
 
                         EditorGUILayout.PropertyField(idProperty);
-                        EditorGUILayout.PropertyField(gameObjectProperty);
+                        EditorGUILayout.PropertyField(tilesPrefabProperty);
                         EditorGUILayout.PropertyField(chanceProperty);
 
                         EditorGUILayout.Space();

@@ -9,13 +9,14 @@ public class MapData : ScriptableObject
     public int time;
 
     [SerializeField] public List<Tile> tiles;
+    
 }
 
 [System.Serializable]
 public class Tile
 {
     public int id;
-    public GameObject gameObject;
+    public GameObject tilesPrefab;
     public int chance;
 }
 

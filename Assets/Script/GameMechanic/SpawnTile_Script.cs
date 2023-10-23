@@ -20,7 +20,8 @@ public class SpawnTile_Script : MonoBehaviour
 
     private void SpawnRandomTiles(int i, Vector3 position)
     {
-        Instantiate(mapData.tiles[i].gameObject, position, Quaternion.identity, transform);
+        Instantiate(mapData.tiles[i].tilesPrefab, position, Quaternion.identity, transform);
+        
     }
 
 }
