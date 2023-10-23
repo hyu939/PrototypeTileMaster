@@ -1,0 +1,23 @@
+<dependencies>
+  <compile
+      roots="D:\Unity\Project\PrototypeTileMaster\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release">
+    <dependency
+        name="D:\Unity\Project\PrototypeTileMaster\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release"
+        simpleName="Gradle:unityLibrary"/>
+  </compile>
+  <package
+      roots="D:\Unity\Project\PrototypeTileMaster\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release,__local_aars__:D:\Unity\Project\PrototypeTileMaster\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\classes.jar:unspecified@jar,__local_aars__:D:\Unity\Project\PrototypeTileMaster\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar,androidx.games:games-frame-pacing:1.10.0@aar">
+    <dependency
+        name="D:\Unity\Project\PrototypeTileMaster\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release"
+        simpleName="Gradle:unityLibrary"/>
+    <dependency
+        name="__local_aars__:D:\Unity\Project\PrototypeTileMaster\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\classes.jar:unspecified@jar"
+        simpleName="__local_aars__:D:\Unity\Project\PrototypeTileMaster\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\classes.jar"/>
+    <dependency
+        name="__local_aars__:D:\Unity\Project\PrototypeTileMaster\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar"
+        simpleName="__local_aars__:D:\Unity\Project\PrototypeTileMaster\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar"/>
+    <dependency
+        name="androidx.games:games-frame-pacing:1.10.0@aar"
+        simpleName="androidx.games:games-frame-pacing"/>
+  </package>
+</dependencies>

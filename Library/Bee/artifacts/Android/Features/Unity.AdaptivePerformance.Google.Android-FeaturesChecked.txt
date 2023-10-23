@@ -1,0 +1,2 @@
+UnityEngine.Android.AndroidGame::get_GameMode
+UnityEngine.Android.AndroidGame::SetGameState

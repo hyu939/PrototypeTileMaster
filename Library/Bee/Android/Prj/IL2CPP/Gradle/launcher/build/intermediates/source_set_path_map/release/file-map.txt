@@ -1,0 +1,9 @@
+com.DefaultCompany.PrototypeTileMaster.launcher-pngs-0 D:\Unity\Project\PrototypeTileMaster\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\build\generated\res\pngs\release
+com.DefaultCompany.PrototypeTileMaster.launcher-resValues-1 D:\Unity\Project\PrototypeTileMaster\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\build\generated\res\resValues\release
+com.DefaultCompany.PrototypeTileMaster.launcher-rs-2 D:\Unity\Project\PrototypeTileMaster\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\build\generated\res\rs\release
+com.DefaultCompany.PrototypeTileMaster.launcher-mergeReleaseResources-3 D:\Unity\Project\PrototypeTileMaster\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\build\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.DefaultCompany.PrototypeTileMaster.launcher-mergeReleaseResources-4 D:\Unity\Project\PrototypeTileMaster\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\build\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.DefaultCompany.PrototypeTileMaster.launcher-merged_res-5 D:\Unity\Project\PrototypeTileMaster\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\build\intermediates\merged_res\release
+com.DefaultCompany.PrototypeTileMaster.launcher-main-6 D:\Unity\Project\PrototypeTileMaster\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\res
+com.DefaultCompany.PrototypeTileMaster.launcher-release-7 D:\Unity\Project\PrototypeTileMaster\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\release\res
+com.DefaultCompany.PrototypeTileMaster.launcher-packaged_res-8 D:\Unity\Project\PrototypeTileMaster\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\packaged_res\release

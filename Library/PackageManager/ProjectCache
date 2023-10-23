@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638336085402554082
-    m_Hash: 2675114929
+      ticks: 638336616723531421
+    m_Hash: 590485862
   m_LockFileStatus:
     m_FilePath: D:/Unity/Project/PrototypeTileMaster/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638336085402593972
-    m_Hash: 1914192525
+      ticks: 638336616723561584
+    m_Hash: 1144827170
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -22,6 +22,313 @@ m_LocalPackages:
 m_ProjectPath: D:/Unity/Project/PrototypeTileMaster/Packages
 m_EditorVersion: 2023.1.11f1 (fbf46ad88f3d)
 m_ResolvedPackages:
+- packageId: com.unity.2d.sprite@1.0.0
+  testable: 0
+  isDirectDependency: 1
+  version: 1.0.0
+  source: 2
+  resolvedPath: D:\Unity\Project\PrototypeTileMaster\Library\PackageCache\com.unity.2d.sprite@1.0.0
+  assetPath: Packages/com.unity.2d.sprite
+  name: com.unity.2d.sprite
+  displayName: 2D Sprite
+  author:
+    name: 
+    email: 
+    url: 
+  category: 2D
+  type: 
+  description: Use Unity Sprite Editor Window to create and edit Sprite asset properties
+    like pivot, borders and Physics shape
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    compatible:
+    - 1.0.0
+    recommended: 1.0.0
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - 2d
+  - sprite
+  - sprite editor window
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 1.0.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+- packageId: com.unity.adaptiveperformance.google.android@1.2.1
+  testable: 0
+  isDirectDependency: 1
+  version: 1.2.1
+  source: 1
+  resolvedPath: D:\Unity\Project\PrototypeTileMaster\Library\PackageCache\com.unity.adaptiveperformance.google.android@1.2.1
+  assetPath: Packages/com.unity.adaptiveperformance.google.android
+  name: com.unity.adaptiveperformance.google.android
+  displayName: Adaptive Performance Android
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: "The Adaptive Performance Android package provides the Adaptive Performance
+    subsystem for Android platforms and works in combination with Adaptive Performance.
+    \n\nBy installing this package, you agree to the terms and conditions of the
+    Unity End User License Agreement found under \"View licenses\" above."
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.0.0-pre.2
+    - 1.0.0-pre.3
+    - 1.0.0-pre.4
+    - 1.0.0
+    - 1.1.0
+    - 1.1.1
+    - 1.1.2
+    - 1.2.0
+    - 1.2.1
+    compatible:
+    - 1.1.0
+    - 1.1.1
+    - 1.1.2
+    - 1.2.0
+    - 1.2.1
+    recommended: 1.1.2
+    deprecated: []
+  dependencies:
+  - name: com.unity.adaptiveperformance
+    version: 5.0.0
+  resolvedDependencies:
+  - name: com.unity.adaptiveperformance
+    version: 5.0.0
+  - name: com.unity.profiling.core
+    version: 1.0.2
+  keywords:
+  - mobile
+  - adaptive
+  - performance
+  - utility
+  - utilities
+  - core
+  - google
+  - ap
+  - provider
+  - subsystem
+  - gamesdk
+  - VRR
+  - indexer
+  - scaler
+  - boost
+  - profiles
+  - cluster
+  - clusterinfo
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638290079480000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.adaptiveperformance.google.android@1.2/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.adaptiveperformance.google.android.git
+    revision: 697e7504710c2f0d20ab6eed14b80a20da9c02b5
+    path: 
+  unityLifecycle:
+    version: 1.1.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Fixed\n* Some deviced do not report correct thermal
+    headroom numbers. Disabling Adaptive Performance on those devices."}'
+  assetStore:
+    productId: 
+- packageId: com.unity.adaptiveperformance.samsung.android@5.0.0
+  testable: 0
+  isDirectDependency: 1
+  version: 5.0.0
+  source: 1
+  resolvedPath: D:\Unity\Project\PrototypeTileMaster\Library\PackageCache\com.unity.adaptiveperformance.samsung.android@5.0.0
+  assetPath: Packages/com.unity.adaptiveperformance.samsung.android
+  name: com.unity.adaptiveperformance.samsung.android
+  displayName: Adaptive Performance Samsung Android
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: "The Adaptive Performance Samsung (Android) package provides the Adaptive
+    Performance subsystem for Samsung Android platforms and works in combination
+    with Adaptive Performance. \n\nBy installing this package, you agree to the terms
+    and conditions of the Samsung GameSDK End User License Agreement found under
+    \"View licenses\" above."
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.2.0-preview.1
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2-preview.1
+    - 1.1.0-preview.2
+    - 1.1.0
+    - 1.1.1
+    - 1.1.2
+    - 1.1.3
+    - 1.1.4
+    - 1.1.6
+    - 1.1.9
+    - 1.1.10
+    - 1.2.1
+    - 1.2.2
+    - 1.2.3
+    - 2.0.0-preview.4
+    - 2.0.0-preview.7
+    - 2.0.0-preview.8
+    - 2.0.0-preview.9
+    - 2.0.0-preview.10
+    - 2.0.0-preview.11
+    - 2.0.0
+    - 2.0.1
+    - 2.0.2
+    - 2.1.0
+    - 2.1.1
+    - 2.2.1
+    - 2.2.2
+    - 2.2.4
+    - 2.2.5
+    - 3.0.0-pre.2
+    - 3.0.0
+    - 3.0.1
+    - 3.0.3
+    - 3.0.4
+    - 4.0.0-pre.1
+    - 4.0.0
+    - 4.0.1
+    - 4.0.2
+    - 5.0.0-pre.1
+    - 5.0.0-pre.2
+    - 5.0.0
+    compatible:
+    - 5.0.0
+    recommended: 5.0.0
+    deprecated: []
+  dependencies:
+  - name: com.unity.adaptiveperformance
+    version: 5.0.0
+  resolvedDependencies:
+  - name: com.unity.adaptiveperformance
+    version: 5.0.0
+  - name: com.unity.profiling.core
+    version: 1.0.2
+  keywords:
+  - mobile
+  - adaptive
+  - performance
+  - utility
+  - utilities
+  - core
+  - samsung
+  - ap
+  - provider
+  - subsystem
+  - gamesdk
+  - VRR
+  - indexer
+  - scaler
+  - boost
+  - profiles
+  - cluster
+  - clusterinfo
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638158713650000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.adaptiveperformance.samsung.android@5.0/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.adaptiveperformance.samsung.android.git
+    revision: 11a249c3a7df60f3bfff228fa7f1496991f40dfb
+    path: 
+  unityLifecycle:
+    version: 5.0.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Added\n* Adaptive Performance Subsystem is using
+    the internal Subsystems module now and removed the subsystem registration. This
+    introduces an internal APProvider class.\n* Updates to provider loader and subsystem
+    to align with base package changes to enable lifecycle management.\n\n### Changed\n*
+    Samsung provider was changed to support the new APIs.\n* Improved handling for
+    GameSDK APIs that may not be available on certain devices.\n\n### Fixed\n- Adjusted
+    the loader and subsystem initialization process to allow for falling back to
+    another subsystem if init is not successful."}'
+  assetStore:
+    productId: 
 - packageId: com.unity.collab-proxy@2.0.7
   testable: 0
   isDirectDependency: 1

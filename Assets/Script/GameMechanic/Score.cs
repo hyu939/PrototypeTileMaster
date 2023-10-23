@@ -8,7 +8,7 @@ public class Score : MonoBehaviour
     private int score = 0;
     private int combo = 1;
 
-    private float doublePointsDuration = 7f;
+    private float doublePointsDuration = 5f;
     private float doublePointsTimer = 0f;
     private bool isDoublePointsActive = false;
 
@@ -20,7 +20,7 @@ public class Score : MonoBehaviour
 
             if (doublePointsTimer <= 0f)
             {
-                combo = 0;
+                combo = 1;
                 isDoublePointsActive = false;
                 uiCombo.text = "";
             }
@@ -35,12 +35,14 @@ public class Score : MonoBehaviour
 
     public void IncreaseScore()
     {
-        score++;
+        
 
         if (isDoublePointsActive)
         {
             score = score + combo;
         }
+        else
+            score++;
     }
 
     public void ActivateDoublePoints()

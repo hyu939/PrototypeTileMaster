@@ -7,7 +7,7 @@ public class SpawnTile_Script : MonoBehaviour
     public MapData mapData;
 
 
-    private void Start()
+    private void Awake()
     {
         for (int i = 0; i < mapData.tiles.Count; i++)
         {

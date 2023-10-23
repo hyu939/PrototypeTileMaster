@@ -8,8 +8,8 @@ using UnityEngine.SocialPlatforms.Impl;
 
 public class Collector : MonoBehaviour
 {
-    public static Collector Instance;
-    public int[] colectTilesId;
+    //public static Collector Instance;
+    public int[] colectTilesId = new int[0];
     private int size;
     [SerializeField]private Score score;
     public Collector_Spawn collector_Spawn;
@@ -19,15 +19,20 @@ public class Collector : MonoBehaviour
 
     void Awake()
     {
-        if (Instance == null)
-        {
-            Instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
+        colectTilesId = new int[0];
+        score = GameObject.FindWithTag("Spawn").GetComponent<Score>();
+        collector_Spawn = GameObject.FindWithTag("Spawn").GetComponent<Collector_Spawn>();
+        spawn_Script = GameObject.FindWithTag("Spawn").GetComponent<SpawnTile_Script>();
+
+        //if (Instance == null)
+        //{
+        //    Instance = this;
+        //    DontDestroyOnLoad(gameObject);
+        //}
+        //else
+        //{
+        //    Destroy(gameObject);
+        //}
     }
 
     public void TilesArray(int id)
@@ -87,7 +92,7 @@ public class Collector : MonoBehaviour
 
     void SpawnObject()
     {
-        tileCollected++;
+        
         for (int j = 0; j < colectTilesId.Length; j++)
         {
             collector_Spawn.SpawnObjectWithTag(colectTilesId[j], j);
@@ -96,7 +101,8 @@ public class Collector : MonoBehaviour
 
     void WinCondition()
     {
-        if (tileCollected == spawn_Script.mapData.tiles.Sum(tiles => tiles.chance))
+        tileCollected++;
+        if (tileCollected == spawn_Script.mapData.tiles.Sum(tiles => tiles.chance)*3)
         {
             Debug.Log("WWWWWWWWWWWINNNNNNNNN");
         }
