@@ -15,7 +15,6 @@ public class MapData : ScriptableObject
 [System.Serializable]
 public class Tile
 {
-    public int id;
     public GameObject tilesPrefab;
     public int chance;
 }

@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: MapData_Map2
   m_EditorClassIdentifier: 
   mapname: Map2
-  lv: 0
-  time: 0
+  lv: 2
+  time: 300
   tiles: []

@@ -6,12 +6,14 @@ using System.Collections.ObjectModel;
 
 public class Tile_Script : MonoBehaviour 
 {
-    [SerializeField] private int id;
+    public int id;
     private Collector collector;
 
     private void Awake()
     {
         collector = GameObject.FindWithTag("Colletor").GetComponent<Collector>();
+        
+
     }
     private void OnMouseDown()
     {

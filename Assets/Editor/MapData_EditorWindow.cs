@@ -61,11 +61,10 @@ public class MapData_EditorWindow : EditorWindow
                     for (int j = 0; j < mapData[i].tiles.Count; j++)
                     {
                         SerializedProperty tileProperty = tilesProperty.GetArrayElementAtIndex(j);
-                        SerializedProperty idProperty = tileProperty.FindPropertyRelative("id");
                         SerializedProperty tilesPrefabProperty = tileProperty.FindPropertyRelative("tilesPrefab");
                         SerializedProperty chanceProperty = tileProperty.FindPropertyRelative("chance");
 
-                        EditorGUILayout.PropertyField(idProperty);
+                        
                         EditorGUILayout.PropertyField(tilesPrefabProperty);
                         EditorGUILayout.PropertyField(chanceProperty);
 

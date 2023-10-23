@@ -14,17 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapname: Map1
   lv: 1
-  time: 400
+  time: 300
   tiles:
-  - id: 0
-    tilesPrefab: {fileID: 388876489497171537, guid: 846e22de41d1e144d98af0f6760ab580,
+  - tilesPrefab: {fileID: 4752946444333522886, guid: c313ac8f6f8dd6d4fb89b72ab59d6cf8,
       type: 3}
     chance: 1
-  - id: 1
-    tilesPrefab: {fileID: 4816721914606352166, guid: 298b495715399f84ea0681dd5ad54674,
+  - tilesPrefab: {fileID: 2200150085352532171, guid: c59b23e531cfcd04f9a75530313c1ebd,
       type: 3}
     chance: 1
-  - id: 2
-    tilesPrefab: {fileID: 2230530226155236490, guid: 09b225093279fe649924c3a9f97f9c13,
+  - tilesPrefab: {fileID: 4359104348707496693, guid: 65820abbfd6d56048b83bf71448540f5,
+      type: 3}
+    chance: 1
+  - tilesPrefab: {fileID: 3460112209251773488, guid: 29121c755061c954ba2b127835db5775,
       type: 3}
     chance: 1
