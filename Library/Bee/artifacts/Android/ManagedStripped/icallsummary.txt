@@ -198,6 +198,7 @@ UnityEngine.Application::get_isBatchMode
 UnityEngine.Application::get_isFocused
 UnityEngine.Application::get_isPlaying
 UnityEngine.Application::get_targetFrameRate
+UnityEngine.Application::get_dataPath
 UnityEngine.Application::get_identifier
 UnityEngine.Application::OpenURL
 UnityEngine.Application::set_targetFrameRate
@@ -372,6 +373,7 @@ UnityEngine.GameObject::GetComponent_Injected
 UnityEngine.GameObject::Internal_AddComponentWithType_Injected
 UnityEngine.GameObject::TryGetComponentInternal_Injected
 UnityEngine.GameObject::Find
+UnityEngine.GameObject::FindGameObjectWithTag
 UnityEngine.GameObject::FindGameObjectsWithTag
 UnityEngine.GameObject::get_transform_Injected
 UnityEngine.GL::Begin
@@ -504,6 +506,8 @@ UnityEngine.Internal.InputUnsafeUtility::GetAxis
 UnityEngine.Internal.InputUnsafeUtility::GetAxisRaw
 UnityEngine.Internal.InputUnsafeUtility::GetAxisRaw__Unmanaged
 UnityEngine.Internal.InputUnsafeUtility::GetAxis__Unmanaged
+UnityEngine.JsonUtility::FromJsonInternal
+UnityEngine.JsonUtility::ToJsonInternal
 UnityEngine.Light::get_useColorTemperature_Injected
 UnityEngine.Light::get_bounceIntensity_Injected
 UnityEngine.Light::get_colorTemperature_Injected

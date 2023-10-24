@@ -4,32 +4,25 @@ ScriptsOnlyBuild:
     - ButtonCtrl
     - Collector
     - Collector_Spawn
+    - GamePause
+    - MainMenuUI
     - MapData
+    - SaveLoad
     - Score
     - SpawnTile_Script
     - Tile_Script
     - Timer
     Unity.AdaptivePerformance.Editor.dll:
     - UnityEditor.AdaptivePerformance.Editor.AdaptivePerformanceGeneralSettingsPerBuildTarget
-    - UnityEditor.AdaptivePerformance.Editor.AdaptivePerformanceManagerSettingsEditor
-    Unity.AdaptivePerformance.Google.Android.Editor.dll:
-    - UnityEditor.AdaptivePerformance.Google.Android.Editor.GoogleAndroidProviderSettingsEditor
     Unity.AdaptivePerformance.Google.Android.dll:
     - UnityEngine.AdaptivePerformance.Google.Android.GoogleAndroidProviderLoader
     - UnityEngine.AdaptivePerformance.Google.Android.GoogleAndroidProviderSettings
-    Unity.AdaptivePerformance.Samsung.Android.Editor.dll:
-    - UnityEditor.AdaptivePerformance.Samsung.Android.Editor.SamsungAndroidProviderSettingsEditor
     Unity.AdaptivePerformance.Samsung.Android.dll:
     - UnityEngine.AdaptivePerformance.Samsung.Android.SamsungAndroidProviderLoader
     - UnityEngine.AdaptivePerformance.Samsung.Android.SamsungAndroidProviderSettings
-    Unity.AdaptivePerformance.Simulator.Editor.dll:
-    - UnityEditor.AdaptivePerformance.Simulator.Editor.SimulatorProviderSettings
-    - UnityEditor.AdaptivePerformance.Simulator.Editor.SimulatorProviderSettingsEditor
     Unity.AdaptivePerformance.dll:
     - UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings
     - UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings
-    Unity.Mobile.AndroidLogcat.Editor.dll:
-    - Unity.Android.Logcat.AndroidLogcatManager
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro:
@@ -102,6 +95,9 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Slider/SliderEvent
     - UnityEngine.UI.SpriteState
   methodsToPreserve:
+  - assembly: Assembly-CSharp
+    fullTypeName: MainMenuUI
+    methodName: PlayButton
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
@@ -110,9 +106,166 @@ ScriptsOnlyBuild:
     methodName: SetActive
   - assembly: Assembly-CSharp
     fullTypeName: ButtonCtrl
+    methodName: MenuButton
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonCtrl
+    methodName: CloseMenuButton
+  - assembly: Assembly-CSharp
+    fullTypeName: MainMenuUI
+    methodName: SaveJson
+  - assembly: Assembly-CSharp
+    fullTypeName: MainMenuUI
+    methodName: PlayButton
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: MainMenuUI
+    methodName: PlayButton
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.UI
+    fullTypeName: UnityEngine.UI.Image
+    methodName: set_fillAmount
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonCtrl
     methodName: AgainButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonCtrl
+    methodName: HomeButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonCtrl
+    methodName: HomeButton
+  - assembly: Assembly-CSharp
+    fullTypeName: SaveLoad
+    methodName: NextLVSave
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonCtrl
+    methodName: NextLVButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonCtrl
+    methodName: AgainButton
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonCtrl
+    methodName: CloseMenuButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonCtrl
+    methodName: AgainButton
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonCtrl
+    methodName: MenuButton
+  - assembly: UnityEngine.UI
+    fullTypeName: UnityEngine.UI.Image
+    methodName: set_fillAmount
   sceneClasses:
-    Assets/Scenes/MapScenes/Map1.unity:
+    Assets/Scenes/Map1.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 84
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 17144}
+    - Class: 114
+      Script: {instanceID: 17146}
+    - Class: 114
+      Script: {instanceID: 17148}
+    - Class: 114
+      Script: {instanceID: 17150}
+    - Class: 114
+      Script: {instanceID: 17938}
+    - Class: 114
+      Script: {instanceID: 17948}
+    - Class: 114
+      Script: {instanceID: 17968}
+    - Class: 114
+      Script: {instanceID: 18048}
+    - Class: 114
+      Script: {instanceID: 18256}
+    - Class: 114
+      Script: {instanceID: 18428}
+    - Class: 114
+      Script: {instanceID: 18468}
+    - Class: 114
+      Script: {instanceID: 18708}
+    - Class: 114
+      Script: {instanceID: 19154}
+    - Class: 114
+      Script: {instanceID: 20744}
+    - Class: 114
+      Script: {instanceID: 20808}
+    - Class: 114
+      Script: {instanceID: 21388}
+    - Class: 114
+      Script: {instanceID: 21392}
+    - Class: 114
+      Script: {instanceID: 21450}
+    - Class: 114
+      Script: {instanceID: 21560}
+    - Class: 114
+      Script: {instanceID: 21728}
+    - Class: 114
+      Script: {instanceID: 21908}
+    - Class: 114
+      Script: {instanceID: 23006}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Menu.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -133,15 +286,11 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 49
       Script: {instanceID: 0}
-    - Class: 54
-      Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
     - Class: 81
-      Script: {instanceID: 0}
-    - Class: 84
       Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
@@ -150,51 +299,37 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 17186}
+      Script: {instanceID: 17144}
     - Class: 114
-      Script: {instanceID: 17778}
+      Script: {instanceID: 17146}
     - Class: 114
-      Script: {instanceID: 17912}
+      Script: {instanceID: 17148}
     - Class: 114
-      Script: {instanceID: 17922}
+      Script: {instanceID: 17150}
     - Class: 114
-      Script: {instanceID: 18014}
+      Script: {instanceID: 17798}
     - Class: 114
-      Script: {instanceID: 18220}
+      Script: {instanceID: 17968}
     - Class: 114
-      Script: {instanceID: 18428}
+      Script: {instanceID: 18256}
     - Class: 114
-      Script: {instanceID: 18666}
+      Script: {instanceID: 18468}
     - Class: 114
-      Script: {instanceID: 18736}
+      Script: {instanceID: 19154}
     - Class: 114
-      Script: {instanceID: 19750}
+      Script: {instanceID: 19818}
     - Class: 114
-      Script: {instanceID: 20004}
+      Script: {instanceID: 20078}
     - Class: 114
-      Script: {instanceID: 20638}
+      Script: {instanceID: 20808}
     - Class: 114
-      Script: {instanceID: 20648}
+      Script: {instanceID: 21392}
     - Class: 114
-      Script: {instanceID: 20712}
+      Script: {instanceID: 21560}
     - Class: 114
-      Script: {instanceID: 20970}
+      Script: {instanceID: 21908}
     - Class: 114
-      Script: {instanceID: 21284}
-    - Class: 114
-      Script: {instanceID: 21288}
-    - Class: 114
-      Script: {instanceID: 21344}
-    - Class: 114
-      Script: {instanceID: 21450}
-    - Class: 114
-      Script: {instanceID: 21612}
-    - Class: 114
-      Script: {instanceID: 21788}
-    - Class: 114
-      Script: {instanceID: 22870}
-    - Class: 114
-      Script: {instanceID: 35592}
+      Script: {instanceID: 25722}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -214,6 +349,30 @@ ScriptsOnlyBuild:
   scriptHashData:
   - hash:
       serializedVersion: 2
+      Hash: 16c8cbd24a32f9d6625615e0e9098073
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: 0b7995e6c59201aa9b4ad6a0aecb4621
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: 892b5093967522535ba980d28ce42084
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: 1ed846c1ed9d69c8c2fcff9a6896b04f
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.AdaptivePerformance
     namespaceName: UnityEngine.AdaptivePerformance
@@ -224,12 +383,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UIElements
     className: PanelRaycaster
-  - hash:
-      serializedVersion: 2
-      Hash: 16c8cbd24a32f9d6625615e0e9098073
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.UI
-    className: Image
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -328,13 +481,19 @@ ScriptsOnlyBuild:
     className: RawImage
   - hash:
       serializedVersion: 2
-      Hash: 1993c5372e5eafe1d098df8eda5f3fe8
+      Hash: 63b12cc9e0f929654f8835cfa8935d05
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Timer
   - hash:
       serializedVersion: 2
-      Hash: b2a7e07de7f0c8f8749f3487a8c2570b
+      Hash: f0e6ce2b9fce60143493748ab08ec229
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GamePause
+  - hash:
+      serializedVersion: 2
+      Hash: 73ad43a2eded46c525da4ecd2659e0cf
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Collector
@@ -386,6 +545,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.AdaptivePerformance
     namespaceName: UnityEngine.AdaptivePerformance
     className: AdaptiveSorting
+  - hash:
+      serializedVersion: 2
+      Hash: 83241025844ed3e6f5f69ba80acfd364
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SaveLoad
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -454,7 +619,7 @@ ScriptsOnlyBuild:
     className: UnityOnDropdownValueChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 430b650b34aa86306c2e93b18f7e070b
+      Hash: 36e195e0dd59ce48bc8862e35b0e45b2
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Score
@@ -470,12 +635,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.AdaptivePerformance
     namespaceName: UnityEngine.AdaptivePerformance
     className: AdaptiveFramerate
-  - hash:
-      serializedVersion: 2
-      Hash: 0b7995e6c59201aa9b4ad6a0aecb4621
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.UI
-    className: Button
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -545,6 +704,12 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ButtonCtrl
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnControllerColliderHitMessageListener
@@ -566,6 +731,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnCollisionExit2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 04ac33e9befde0ec7e7a169793df3ae2
+    assemblyName: Unity.AdaptivePerformance.Google.Android
+    namespaceName: UnityEngine.AdaptivePerformance.Google.Android
+    className: GoogleAndroidProviderSettings
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -670,6 +841,12 @@ ScriptsOnlyBuild:
     className: TMP_SubMeshUI
   - hash:
       serializedVersion: 2
+      Hash: 3a758accffdfead7ed4e0c9f5b2e36fa
+    assemblyName: Unity.AdaptivePerformance.Samsung.Android
+    namespaceName: UnityEngine.AdaptivePerformance.Samsung.Android
+    className: SamsungAndroidProviderSettings
+  - hash:
+      serializedVersion: 2
       Hash: fcc569162a8d9bd9df34e8c9dee84212
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
@@ -766,12 +943,6 @@ ScriptsOnlyBuild:
     className: GlobalMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 892b5093967522535ba980d28ce42084
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.UI
-    className: Slider
-  - hash:
-      serializedVersion: 2
       Hash: 41ac98c9880a6f3758ca69dbaa1e7777
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
@@ -838,10 +1009,10 @@ ScriptsOnlyBuild:
     className: UnityOnDeselectMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 1ed846c1ed9d69c8c2fcff9a6896b04f
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.UI
-    className: Text
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.AdaptivePerformance.Samsung.Android
+    namespaceName: UnityEngine.AdaptivePerformance
+    className: AdaptiveVariableRefreshRate
   - hash:
       serializedVersion: 2
       Hash: f6831ac80ec81c5d5b370c0ed0fee997
@@ -860,6 +1031,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 5f539b2fa6561ab4dfd6dbcb7a0d58a1
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FillValueNumber
   - hash:
       serializedVersion: 2
       Hash: 0aa7e22abc34b1ccd95de9006b44442f
@@ -1055,6 +1232,18 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.AdaptivePerformance.Google.Android
+    namespaceName: UnityEngine.AdaptivePerformance.Google.Android
+    className: GoogleAndroidProviderLoader
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.AdaptivePerformance.Samsung.Android
+    namespaceName: UnityEngine.AdaptivePerformance.Samsung.Android
+    className: SamsungAndroidProviderLoader
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnMoveMessageListener
@@ -1072,22 +1261,22 @@ ScriptsOnlyBuild:
     className: ScrollRect
   - hash:
       serializedVersion: 2
-      Hash: bbe6cd26ab1f5dc94a48577019249316
+      Hash: 95d2caadb7ec61e0f20a1d823e5836e1
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: MapData
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.AdaptivePerformance
-    namespaceName: UnityEngine.AdaptivePerformance
-    className: AdaptiveLOD
   - hash:
       serializedVersion: 2
       Hash: 156d8c58e8fdbab9401dac47ce9d3241
     assemblyName: Unity.AdaptivePerformance
     namespaceName: UnityEngine.AdaptivePerformance
     className: IAdaptivePerformanceSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.AdaptivePerformance
+    namespaceName: UnityEngine.AdaptivePerformance
+    className: AdaptiveLOD
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -1174,47 +1363,12 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 5f539b2fa6561ab4dfd6dbcb7a0d58a1
+      Hash: eeb00e0ec9ed6fa7fde257ba227109e5
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: FillValueNumber
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: ButtonCtrl
-  - hash:
-      serializedVersion: 2
-      Hash: 04ac33e9befde0ec7e7a169793df3ae2
-    assemblyName: Unity.AdaptivePerformance.Google.Android
-    namespaceName: UnityEngine.AdaptivePerformance.Google.Android
-    className: GoogleAndroidProviderSettings
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.AdaptivePerformance.Google.Android
-    namespaceName: UnityEngine.AdaptivePerformance.Google.Android
-    className: GoogleAndroidProviderLoader
-  - hash:
-      serializedVersion: 2
-      Hash: 3a758accffdfead7ed4e0c9f5b2e36fa
-    assemblyName: Unity.AdaptivePerformance.Samsung.Android
-    namespaceName: UnityEngine.AdaptivePerformance.Samsung.Android
-    className: SamsungAndroidProviderSettings
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.AdaptivePerformance.Samsung.Android
-    namespaceName: UnityEngine.AdaptivePerformance.Samsung.Android
-    className: SamsungAndroidProviderLoader
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.AdaptivePerformance.Samsung.Android
-    namespaceName: UnityEngine.AdaptivePerformance
-    className: AdaptiveVariableRefreshRate
+    className: MainMenuUI
   platform: 13
   scenePathNames:
-  - Assets/Scenes/MapScenes/Map1.unity
-  playerPath: D:/Unity/Project/PrototypeTileMaster/BuildGame/PrototypeTilesMaster.apk
+  - Assets/Scenes/Menu.unity
+  - Assets/Scenes/Map1.unity
+  playerPath: "C:/Users/phaml/OneDrive/M\xE1y t\xEDnh/BuildGame/PrototypeTilesMaster101.apk"

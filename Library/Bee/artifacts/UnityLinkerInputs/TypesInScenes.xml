@@ -3,7 +3,10 @@
 		<type fullname="ButtonCtrl" preserve="nothing"/>
 		<type fullname="Collector" preserve="nothing"/>
 		<type fullname="Collector_Spawn" preserve="nothing"/>
+		<type fullname="GamePause" preserve="nothing"/>
+		<type fullname="MainMenuUI" preserve="nothing"/>
 		<type fullname="MapData" preserve="nothing"/>
+		<type fullname="SaveLoad" preserve="nothing"/>
 		<type fullname="Score" preserve="nothing"/>
 		<type fullname="SpawnTile_Script" preserve="nothing"/>
 		<type fullname="Tile_Script" preserve="nothing"/>
@@ -68,6 +71,7 @@
 		<type fullname="UnityEngine.RenderTexture" preserve="nothing"/>
 		<type fullname="UnityEngine.Rigidbody" preserve="nothing"/>
 		<type fullname="UnityEngine.Shader" preserve="nothing"/>
+		<type fullname="UnityEngine.SphereCollider" preserve="nothing"/>
 		<type fullname="UnityEngine.Sprite" preserve="nothing"/>
 		<type fullname="UnityEngine.TextAsset" preserve="nothing"/>
 		<type fullname="UnityEngine.Texture" preserve="nothing"/>

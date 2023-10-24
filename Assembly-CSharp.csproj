@@ -71,6 +71,7 @@
     <Compile Include="Assets\Script\GameMechanic\GamePause.cs" />
     <Compile Include="Assets\Script\GameMechanic\SpawnTile_Script.cs" />
     <Compile Include="Assets\Script\GameMechanic\Tile_Script.cs" />
+    <Compile Include="Assets\Script\UI\MainMenuUI.cs" />
     <Compile Include="Assets\Script\UI\ButtonCtrl.cs" />
   </ItemGroup>
   <ItemGroup>

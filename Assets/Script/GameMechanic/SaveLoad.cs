@@ -15,11 +15,11 @@ public class SaveLoad : MonoBehaviour
     [SerializeField] private Slider volumeSlider;
     [SerializeField] private int currentLV;
     [SerializeField] private SpawnTile_Script spawnTiles;
-    protected MapData[] mapData;
+    [SerializeField] private MapData[] mapData;
 
     private void Awake()
     {
-        mapData = GetAllInstances<MapData>();
+        //mapData = GetAllInstances<MapData>();
         LoadJson();
         spawnTiles.mapData = mapData[currentLV];
     }
@@ -54,7 +54,7 @@ public class SaveLoad : MonoBehaviour
 
     public void NextLVSave()
     {
-        if (currentLV == 3)
+        if (currentLV == 2)
             currentLV = 0;
         else
             currentLV++;
@@ -64,17 +64,17 @@ public class SaveLoad : MonoBehaviour
     }
 
 
-    public static T[] GetAllInstances<T>() where T : MapData
-    {
-        string[] guids = AssetDatabase.FindAssets("t:" + typeof(T).Name);
-        T[] a = new T[guids.Length];
-        for (int i = 0; i < guids.Length; i++)
-        {
-            string path = AssetDatabase.GUIDToAssetPath(guids[i]);
-            a[i] = AssetDatabase.LoadAssetAtPath<T>(path);
-        }
+    //public static T[] GetAllInstances<T>() where T : MapData
+    //{
+    //    string[] guids = AssetDatabase.FindAssets("t:" + typeof(T).Name);
+    //    T[] a = new T[guids.Length];
+    //    for (int i = 0; i < guids.Length; i++)
+    //    {
+    //        string path = AssetDatabase.GUIDToAssetPath(guids[i]);
+    //        a[i] = AssetDatabase.LoadAssetAtPath<T>(path);
+    //    }
 
-        return a;
+    //    return a;
 
-    }
+    //}
 }

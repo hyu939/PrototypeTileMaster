@@ -11,11 +11,11 @@
       "fieldsDescending": {}
     },
     "memoizedSize": -1,
-    "memoizedHashCode": 417928342
+    "memoizedHashCode": -1363572707
   },
   {
     "level_": 0,
-    "message_": "rebuilding JSON D:\\Unity\\Project\\PrototypeTileMaster\\.utmp\\RelWithDebInfo\\6pi1f436\\arm64-v8a\\android_gradle_build.json due to:",
+    "message_": "JSON \u0027D:\\Unity\\Project\\PrototypeTileMaster\\.utmp\\RelWithDebInfo\\6pi1f436\\arm64-v8a\\android_gradle_build.json\u0027 was up-to-date",
     "file_": "D:\\Unity\\Project\\PrototypeTileMaster\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\unityLibrary\\src\\main\\cpp\\CMakeLists.txt",
     "tag_": "release|arm64-v8a",
     "diagnosticCode_": 0,
@@ -25,175 +25,7 @@
       "fieldsDescending": {}
     },
     "memoizedSize": -1,
-    "memoizedHashCode": -1812820192
-  },
-  {
-    "level_": 0,
-    "message_": "- expected json D:\\Unity\\Project\\PrototypeTileMaster\\.utmp\\RelWithDebInfo\\6pi1f436\\arm64-v8a\\android_gradle_build.json file is not present, will remove stale json folder",
-    "file_": "D:\\Unity\\Project\\PrototypeTileMaster\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\unityLibrary\\src\\main\\cpp\\CMakeLists.txt",
-    "tag_": "release|arm64-v8a",
-    "diagnosticCode_": 0,
-    "memoizedIsInitialized": 1,
-    "unknownFields": {
-      "fields": {},
-      "fieldsDescending": {}
-    },
-    "memoizedSize": -1,
-    "memoizedHashCode": -1514365382
-  },
-  {
-    "level_": 0,
-    "message_": "- missing previous command file D:\\Unity\\Project\\PrototypeTileMaster\\.utmp\\RelWithDebInfo\\6pi1f436\\arm64-v8a\\metadata_generation_command.txt, will remove stale json folder",
-    "file_": "D:\\Unity\\Project\\PrototypeTileMaster\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\unityLibrary\\src\\main\\cpp\\CMakeLists.txt",
-    "tag_": "release|arm64-v8a",
-    "diagnosticCode_": 0,
-    "memoizedIsInitialized": 1,
-    "unknownFields": {
-      "fields": {},
-      "fieldsDescending": {}
-    },
-    "memoizedSize": -1,
-    "memoizedHashCode": -775354824
-  },
-  {
-    "level_": 0,
-    "message_": "- command changed from previous, will remove stale json folder",
-    "file_": "D:\\Unity\\Project\\PrototypeTileMaster\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\unityLibrary\\src\\main\\cpp\\CMakeLists.txt",
-    "tag_": "release|arm64-v8a",
-    "diagnosticCode_": 0,
-    "memoizedIsInitialized": 1,
-    "unknownFields": {
-      "fields": {},
-      "fieldsDescending": {}
-    },
-    "memoizedSize": -1,
-    "memoizedHashCode": 307957721
-  },
-  {
-    "level_": 0,
-    "message_": "- prefab configuration has changed",
-    "file_": "D:\\Unity\\Project\\PrototypeTileMaster\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\unityLibrary\\src\\main\\cpp\\CMakeLists.txt",
-    "tag_": "release|arm64-v8a",
-    "diagnosticCode_": 0,
-    "memoizedIsInitialized": 1,
-    "unknownFields": {
-      "fields": {},
-      "fieldsDescending": {}
-    },
-    "memoizedSize": -1,
-    "memoizedHashCode": -544614596
-  },
-  {
-    "level_": 0,
-    "message_": "@echo off\n\"D:\\\\Unity\\\\2023.1.11f1\\\\Editor\\\\Data\\\\PlaybackEngines\\\\AndroidPlayer\\\\OpenJDK\\\\bin\\\\java\" ^\n  --class-path ^\n  \"C:\\\\Users\\\\phaml\\\\.gradle\\\\caches\\\\modules-2\\\\files-2.1\\\\com.google.prefab\\\\cli\\\\2.0.0\\\\f2702b5ca13df54e3ca92f29d6b403fb6285d8df\\\\cli-2.0.0-all.jar\" ^\n  com.google.prefab.cli.AppKt ^\n  --build-system ^\n  cmake ^\n  --platform ^\n  android ^\n  --abi ^\n  arm64-v8a ^\n  --os-version ^\n  22 ^\n  --stl ^\n  c++_shared ^\n  --ndk-version ^\n  23 ^\n  --output ^\n  \"D:\\\\Unity\\\\Project\\\\PrototypeTileMaster\\\\.utmp\\\\RelWithDebInfo\\\\6pi1f436\\\\prefab\\\\arm64-v8a\\\\prefab-configure\" ^\n  \"C:\\\\Users\\\\phaml\\\\.gradle\\\\caches\\\\transforms-3\\\\121b6b243cedf8bef90d462440e4bf24\\\\transformed\\\\jetified-games-frame-pacing-1.10.0\\\\prefab\"\n",
-    "file_": "D:\\Unity\\Project\\PrototypeTileMaster\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\unityLibrary\\src\\main\\cpp\\CMakeLists.txt",
-    "tag_": "release|arm64-v8a",
-    "diagnosticCode_": 0,
-    "memoizedIsInitialized": 1,
-    "unknownFields": {
-      "fields": {},
-      "fieldsDescending": {}
-    },
-    "memoizedSize": -1,
-    "memoizedHashCode": -197724802
-  },
-  {
-    "level_": 0,
-    "message_": "removing stale contents from \u0027D:\\Unity\\Project\\PrototypeTileMaster\\.utmp\\RelWithDebInfo\\6pi1f436\\arm64-v8a\u0027",
-    "file_": "D:\\Unity\\Project\\PrototypeTileMaster\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\unityLibrary\\src\\main\\cpp\\CMakeLists.txt",
-    "tag_": "release|arm64-v8a",
-    "diagnosticCode_": 0,
-    "memoizedIsInitialized": 1,
-    "unknownFields": {
-      "fields": {},
-      "fieldsDescending": {}
-    },
-    "memoizedSize": -1,
-    "memoizedHashCode": -1736504970
-  },
-  {
-    "level_": 0,
-    "message_": "created folder \u0027D:\\Unity\\Project\\PrototypeTileMaster\\.utmp\\RelWithDebInfo\\6pi1f436\\arm64-v8a\u0027",
-    "file_": "D:\\Unity\\Project\\PrototypeTileMaster\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\unityLibrary\\src\\main\\cpp\\CMakeLists.txt",
-    "tag_": "release|arm64-v8a",
-    "diagnosticCode_": 0,
-    "memoizedIsInitialized": 1,
-    "unknownFields": {
-      "fields": {},
-      "fieldsDescending": {}
-    },
-    "memoizedSize": -1,
-    "memoizedHashCode": -564156950
-  },
-  {
-    "level_": 0,
-    "message_": "executing cmake @echo off\n\"D:\\\\Unity\\\\2023.1.11f1\\\\Editor\\\\Data\\\\PlaybackEngines\\\\AndroidPlayer\\\\SDK\\\\cmake\\\\3.22.1\\\\bin\\\\cmake.exe\" ^\n  \"-HD:\\\\Unity\\\\Project\\\\PrototypeTileMaster\\\\Library\\\\Bee\\\\Android\\\\Prj\\\\IL2CPP\\\\Gradle\\\\unityLibrary\\\\src\\\\main\\\\cpp\" ^\n  \"-DCMAKE_SYSTEM_NAME\u003dAndroid\" ^\n  \"-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\" ^\n  \"-DCMAKE_SYSTEM_VERSION\u003d22\" ^\n  \"-DANDROID_PLATFORM\u003dandroid-22\" ^\n  \"-DANDROID_ABI\u003darm64-v8a\" ^\n  \"-DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a\" ^\n  \"-DANDROID_NDK\u003dD:\\\\Unity\\\\2023.1.11f1\\\\Editor\\\\Data\\\\PlaybackEngines\\\\AndroidPlayer\\\\NDK\" ^\n  \"-DCMAKE_ANDROID_NDK\u003dD:\\\\Unity\\\\2023.1.11f1\\\\Editor\\\\Data\\\\PlaybackEngines\\\\AndroidPlayer\\\\NDK\" ^\n  \"-DCMAKE_TOOLCHAIN_FILE\u003dD:\\\\Unity\\\\2023.1.11f1\\\\Editor\\\\Data\\\\PlaybackEngines\\\\AndroidPlayer\\\\NDK\\\\build\\\\cmake\\\\android.toolchain.cmake\" ^\n  \"-DCMAKE_MAKE_PROGRAM\u003dD:\\\\Unity\\\\2023.1.11f1\\\\Editor\\\\Data\\\\PlaybackEngines\\\\AndroidPlayer\\\\SDK\\\\cmake\\\\3.22.1\\\\bin\\\\ninja.exe\" ^\n  \"-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dD:\\\\Unity\\\\Project\\\\PrototypeTileMaster\\\\Library\\\\Bee\\\\Android\\\\Prj\\\\IL2CPP\\\\Gradle\\\\unityLibrary\\\\build\\\\intermediates\\\\cxx\\\\RelWithDebInfo\\\\6pi1f436\\\\obj\\\\arm64-v8a\" ^\n  \"-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dD:\\\\Unity\\\\Project\\\\PrototypeTileMaster\\\\Library\\\\Bee\\\\Android\\\\Prj\\\\IL2CPP\\\\Gradle\\\\unityLibrary\\\\build\\\\intermediates\\\\cxx\\\\RelWithDebInfo\\\\6pi1f436\\\\obj\\\\arm64-v8a\" ^\n  \"-DCMAKE_BUILD_TYPE\u003dRelWithDebInfo\" ^\n  \"-DCMAKE_FIND_ROOT_PATH\u003dD:\\\\Unity\\\\Project\\\\PrototypeTileMaster\\\\.utmp\\\\RelWithDebInfo\\\\6pi1f436\\\\prefab\\\\arm64-v8a\\\\prefab\" ^\n  \"-BD:\\\\Unity\\\\Project\\\\PrototypeTileMaster\\\\.utmp\\\\RelWithDebInfo\\\\6pi1f436\\\\arm64-v8a\" ^\n  -GNinja ^\n  \"-DBUILD_GRADLE_DIRECTORY\u003dD:\\\\Unity\\\\Project\\\\PrototypeTileMaster\\\\Library\\\\Bee\\\\Android\\\\Prj\\\\IL2CPP\\\\Gradle\\\\unityLibrary\" ^\n  \"-DANDROID_STL\u003dc++_shared\"\n",
-    "file_": "D:\\Unity\\Project\\PrototypeTileMaster\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\unityLibrary\\src\\main\\cpp\\CMakeLists.txt",
-    "tag_": "release|arm64-v8a",
-    "diagnosticCode_": 0,
-    "memoizedIsInitialized": 1,
-    "unknownFields": {
-      "fields": {},
-      "fieldsDescending": {}
-    },
-    "memoizedSize": -1,
-    "memoizedHashCode": 619447390
-  },
-  {
-    "level_": 0,
-    "message_": "@echo off\n\"D:\\\\Unity\\\\2023.1.11f1\\\\Editor\\\\Data\\\\PlaybackEngines\\\\AndroidPlayer\\\\SDK\\\\cmake\\\\3.22.1\\\\bin\\\\cmake.exe\" ^\n  \"-HD:\\\\Unity\\\\Project\\\\PrototypeTileMaster\\\\Library\\\\Bee\\\\Android\\\\Prj\\\\IL2CPP\\\\Gradle\\\\unityLibrary\\\\src\\\\main\\\\cpp\" ^\n  \"-DCMAKE_SYSTEM_NAME\u003dAndroid\" ^\n  \"-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\" ^\n  \"-DCMAKE_SYSTEM_VERSION\u003d22\" ^\n  \"-DANDROID_PLATFORM\u003dandroid-22\" ^\n  \"-DANDROID_ABI\u003darm64-v8a\" ^\n  \"-DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a\" ^\n  \"-DANDROID_NDK\u003dD:\\\\Unity\\\\2023.1.11f1\\\\Editor\\\\Data\\\\PlaybackEngines\\\\AndroidPlayer\\\\NDK\" ^\n  \"-DCMAKE_ANDROID_NDK\u003dD:\\\\Unity\\\\2023.1.11f1\\\\Editor\\\\Data\\\\PlaybackEngines\\\\AndroidPlayer\\\\NDK\" ^\n  \"-DCMAKE_TOOLCHAIN_FILE\u003dD:\\\\Unity\\\\2023.1.11f1\\\\Editor\\\\Data\\\\PlaybackEngines\\\\AndroidPlayer\\\\NDK\\\\build\\\\cmake\\\\android.toolchain.cmake\" ^\n  \"-DCMAKE_MAKE_PROGRAM\u003dD:\\\\Unity\\\\2023.1.11f1\\\\Editor\\\\Data\\\\PlaybackEngines\\\\AndroidPlayer\\\\SDK\\\\cmake\\\\3.22.1\\\\bin\\\\ninja.exe\" ^\n  \"-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dD:\\\\Unity\\\\Project\\\\PrototypeTileMaster\\\\Library\\\\Bee\\\\Android\\\\Prj\\\\IL2CPP\\\\Gradle\\\\unityLibrary\\\\build\\\\intermediates\\\\cxx\\\\RelWithDebInfo\\\\6pi1f436\\\\obj\\\\arm64-v8a\" ^\n  \"-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dD:\\\\Unity\\\\Project\\\\PrototypeTileMaster\\\\Library\\\\Bee\\\\Android\\\\Prj\\\\IL2CPP\\\\Gradle\\\\unityLibrary\\\\build\\\\intermediates\\\\cxx\\\\RelWithDebInfo\\\\6pi1f436\\\\obj\\\\arm64-v8a\" ^\n  \"-DCMAKE_BUILD_TYPE\u003dRelWithDebInfo\" ^\n  \"-DCMAKE_FIND_ROOT_PATH\u003dD:\\\\Unity\\\\Project\\\\PrototypeTileMaster\\\\.utmp\\\\RelWithDebInfo\\\\6pi1f436\\\\prefab\\\\arm64-v8a\\\\prefab\" ^\n  \"-BD:\\\\Unity\\\\Project\\\\PrototypeTileMaster\\\\.utmp\\\\RelWithDebInfo\\\\6pi1f436\\\\arm64-v8a\" ^\n  -GNinja ^\n  \"-DBUILD_GRADLE_DIRECTORY\u003dD:\\\\Unity\\\\Project\\\\PrototypeTileMaster\\\\Library\\\\Bee\\\\Android\\\\Prj\\\\IL2CPP\\\\Gradle\\\\unityLibrary\" ^\n  \"-DANDROID_STL\u003dc++_shared\"\n",
-    "file_": "D:\\Unity\\Project\\PrototypeTileMaster\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\unityLibrary\\src\\main\\cpp\\CMakeLists.txt",
-    "tag_": "release|arm64-v8a",
-    "diagnosticCode_": 0,
-    "memoizedIsInitialized": 1,
-    "unknownFields": {
-      "fields": {},
-      "fieldsDescending": {}
-    },
-    "memoizedSize": -1,
-    "memoizedHashCode": -562157795
-  },
-  {
-    "level_": 0,
-    "message_": "Exiting generation of D:\\Unity\\Project\\PrototypeTileMaster\\.utmp\\RelWithDebInfo\\6pi1f436\\arm64-v8a\\compile_commands.json.bin normally",
-    "file_": "D:\\Unity\\Project\\PrototypeTileMaster\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\unityLibrary\\src\\main\\cpp\\CMakeLists.txt",
-    "tag_": "release|arm64-v8a",
-    "diagnosticCode_": 0,
-    "memoizedIsInitialized": 1,
-    "unknownFields": {
-      "fields": {},
-      "fieldsDescending": {}
-    },
-    "memoizedSize": -1,
-    "memoizedHashCode": 98795808
-  },
-  {
-    "level_": 0,
-    "message_": "done executing cmake",
-    "file_": "D:\\Unity\\Project\\PrototypeTileMaster\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\unityLibrary\\src\\main\\cpp\\CMakeLists.txt",
-    "tag_": "release|arm64-v8a",
-    "diagnosticCode_": 0,
-    "memoizedIsInitialized": 1,
-    "unknownFields": {
-      "fields": {},
-      "fieldsDescending": {}
-    },
-    "memoizedSize": -1,
-    "memoizedHashCode": -4388530
-  },
-  {
-    "level_": 0,
-    "message_": "write command file D:\\Unity\\Project\\PrototypeTileMaster\\.utmp\\RelWithDebInfo\\6pi1f436\\arm64-v8a\\metadata_generation_command.txt",
-    "file_": "D:\\Unity\\Project\\PrototypeTileMaster\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\unityLibrary\\src\\main\\cpp\\CMakeLists.txt",
-    "tag_": "release|arm64-v8a",
-    "diagnosticCode_": 0,
-    "memoizedIsInitialized": 1,
-    "unknownFields": {
-      "fields": {},
-      "fieldsDescending": {}
-    },
-    "memoizedSize": -1,
-    "memoizedHashCode": 302437162
+    "memoizedHashCode": 1702252030
   },
   {
     "level_": 0,
@@ -207,6 +39,6 @@
       "fieldsDescending": {}
     },
     "memoizedSize": -1,
-    "memoizedHashCode": 1933684554
+    "memoizedHashCode": 152183505
   }
 ]

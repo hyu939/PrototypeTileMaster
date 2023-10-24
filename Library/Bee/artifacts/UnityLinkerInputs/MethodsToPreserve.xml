@@ -2,12 +2,41 @@
 	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
 		<type fullname="ButtonCtrl">
 			<method name="AgainButton"/>
+			<method name="AgainButton"/>
+			<method name="AgainButton"/>
+			<method name="CloseMenuButton"/>
+			<method name="CloseMenuButton"/>
+			<method name="HomeButton"/>
+			<method name="HomeButton"/>
+			<method name="MenuButton"/>
+			<method name="MenuButton"/>
+			<method name="NextLVButton"/>
+		</type>
+		<type fullname="MainMenuUI">
+			<method name="PlayButton"/>
+			<method name="PlayButton"/>
+			<method name="PlayButton"/>
+			<method name="SaveJson"/>
+		</type>
+		<type fullname="SaveLoad">
+			<method name="NextLVSave"/>
 		</type>
 	</assembly>
 	<assembly fullname="UnityEngine.CoreModule" ignoreIfMissing="1">
 		<type fullname="UnityEngine.GameObject">
 			<method name="SetActive"/>
 			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+		</type>
+	</assembly>
+	<assembly fullname="UnityEngine.UI" ignoreIfMissing="1">
+		<type fullname="UnityEngine.UI.Image">
+			<method name="set_fillAmount"/>
+			<method name="set_fillAmount"/>
 		</type>
 	</assembly>
 </linker>

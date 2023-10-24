@@ -4401,6 +4401,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeArray* GameObject_GetComponentsInterna
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* GameObject_TryGetComponentInternal_mF4570971BBC0A69178D89A298F67C1D60E3881E5 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, Type_t* ___0_type, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* GameObject_TryGetComponentInternal_Injected_mF825AA21272E1BCD8A75C986DF468760205A44E8 (intptr_t ___0__unity_self, Type_t* ___1_type, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* GameObject_FindGameObjectWithTag_mF0229BC2074CE9EEA72FAB1E5A4BC2AEC3D2CDBE (String_t* ___0_tag, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* GameObject_Internal_AddComponentWithType_Injected_m42170ABF0B49C5C9ADEA6BA7849D610B0840116C (intptr_t ___0__unity_self, Type_t* ___1_componentType, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* GameObject_Internal_AddComponentWithType_m2D986297A2133DD6896D9715F22C9627991D07FF (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, Type_t* ___0_componentType, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* GameObject_get_transform_Injected_m8569A51AAC3D60A7EC504A037C8D8C733140DAC7 (intptr_t ___0__unity_self, const RuntimeMethod* method) ;
@@ -18005,6 +18006,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject_TryGetComponentFastPath_m1F07
 	_il2cpp_icall_func = (GameObject_TryGetComponentFastPath_m1F071538D2B2D1C943BE663CE8AEED6C1DEEEE27_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.GameObject::TryGetComponentFastPath(System.Type,System.IntPtr)");
 	_il2cpp_icall_func(__this, ___0_type, ___1_oneFurtherThanResultValue);
 }
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* GameObject_FindWithTag_mDF825E000B03F4F3DE9D4F2EBABC96BFA34B62E5 (String_t* ___0_tag, const RuntimeMethod* method) 
+{
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_0 = NULL;
+	{
+		String_t* L_0 = ___0_tag;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
+		L_1 = GameObject_FindGameObjectWithTag_mF0229BC2074CE9EEA72FAB1E5A4BC2AEC3D2CDBE(L_0, NULL);
+		V_0 = L_1;
+		goto IL_000a;
+	}
+
+IL_000a:
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = V_0;
+		return L_2;
+	}
+}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* GameObject_Internal_AddComponentWithType_m2D986297A2133DD6896D9715F22C9627991D07FF (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, Type_t* ___0_componentType, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18150,6 +18168,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject_set_tag_m0A41528AFD8C83E1CEC5
 		GameObject_set_tag_Injected_mC260537F5563E6CEF906AF7D7991115BDBCA446D(L_0, L_1, NULL);
 		return;
 	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* GameObject_FindGameObjectWithTag_mF0229BC2074CE9EEA72FAB1E5A4BC2AEC3D2CDBE (String_t* ___0_tag, const RuntimeMethod* method) 
+{
+	typedef GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* (*GameObject_FindGameObjectWithTag_mF0229BC2074CE9EEA72FAB1E5A4BC2AEC3D2CDBE_ftn) (String_t*);
+	static GameObject_FindGameObjectWithTag_mF0229BC2074CE9EEA72FAB1E5A4BC2AEC3D2CDBE_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (GameObject_FindGameObjectWithTag_mF0229BC2074CE9EEA72FAB1E5A4BC2AEC3D2CDBE_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.GameObject::FindGameObjectWithTag(System.String)");
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* icallRetVal = _il2cpp_icall_func(___0_tag);
+	return icallRetVal;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* GameObject_FindGameObjectsWithTag_mB8AA805DA664EF0221BB338446014F662771B4E3 (String_t* ___0_tag, const RuntimeMethod* method) 
 {

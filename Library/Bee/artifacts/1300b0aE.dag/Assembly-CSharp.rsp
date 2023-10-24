@@ -385,6 +385,7 @@
 "Assets/Script/GameMechanic/Timer.cs"
 "Assets/Script/Map/MapData.cs"
 "Assets/Script/UI/ButtonCtrl.cs"
+"Assets/Script/UI/MainMenuUI.cs"
 "Assets/UI pack/Scripts/FillValueNumber.cs"
 -langversion:9.0
 
