@@ -9,11 +9,13 @@ public class MainMenuUI : MonoBehaviour
     private int playbtCount=0;
     [SerializeField] private Slider volumeSlider;
     [SerializeField] private TextMeshProUGUI displayLV;
-    public int currentLV;
+
+    private int currentLV  = 0;
+    private float volumeValue;
 
     private void Awake()
     {
-        LoadFileSave();
+        LoadData();
     }
     public void PlayButton()
     {
@@ -21,38 +23,51 @@ public class MainMenuUI : MonoBehaviour
         if(playbtCount == 3)
         {
             SceneManager.LoadScene(1);
-
+            SaveData();
         }
     }
 
-    public void SaveJson()
+    public void Slider()
     {
-        // Tạo đối tượng SaveData và gán giá trị
-        SaveData data = new SaveData();
-        data.save_Volume = volumeSlider.value;
-        data.save_currenLV = currentLV;
-
-        // Chuyển đối tượng SaveData thành chuỗi JSON
-        string json = JsonUtility.ToJson(data, true);
-
-        // Lưu chuỗi JSON vào file
-        File.WriteAllText(Application.dataPath + "/SaveDataFile.json", json);
-        Debug.Log("SAVE");
-        Debug.Log(json);
+        volumeValue = volumeSlider.value;
     }
 
-    void LoadFileSave()
+    public void SaveData()
     {
-        // Đọc file JSON 
-        string json = File.ReadAllText(Application.dataPath + "/SaveDataFile.json");
+        string filePath = Application.persistentDataPath + "/data.bin";
 
-        // Tạo đối tượng SaveData và gán giá trị lấy được
-        SaveData data = JsonUtility.FromJson<SaveData>(json);
-        volumeSlider.value = data.save_Volume;
-        currentLV = data.save_currenLV;
-        int displaylv = currentLV + 1;
-        displayLV.text = (displaylv).ToString();
-        Debug.Log("LOAD");
-        Debug.Log(json);
+        using (BinaryWriter writer = new BinaryWriter(File.Open(filePath, FileMode.Create)))
+        {
+            writer.Write(currentLV);
+            writer.Write(volumeValue);
+        }
+
+        Debug.Log("Data saved!");
+    }
+
+    public void LoadData()
+    {
+        string filePath = Application.persistentDataPath + "/data.bin";
+
+        if (File.Exists(filePath))
+        {
+            using (BinaryReader reader = new BinaryReader(File.Open(filePath, FileMode.Open)))
+            {
+                currentLV = reader.ReadInt32();
+                volumeValue = reader.ReadSingle();
+
+                volumeSlider.value = volumeValue;
+                int displaylv = currentLV + 1;
+                displayLV.text = (displaylv).ToString();
+            }
+
+            Debug.Log("Data loaded!");
+            Debug.Log(filePath);
+        }
+        else
+        {
+            Debug.Log("No saved data found!");
+            SaveData();
+        }
     }
 }

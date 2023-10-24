@@ -8,7 +8,7 @@ public class ButtonCtrl : MonoBehaviour
     public void AgainButton()
     {
         GamePause.Instance.Resume();
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene(1);
     }
     public void HomeButton()
     {
@@ -18,7 +18,8 @@ public class ButtonCtrl : MonoBehaviour
     public void NextLVButton()
     {
         GamePause.Instance.Resume();
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        //SceneManager.LoadScene(1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     public void MenuButton()

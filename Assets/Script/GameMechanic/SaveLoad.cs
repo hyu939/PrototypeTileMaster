@@ -4,52 +4,61 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
-public class SaveData
-{
-    public int save_currenLV;
-    public float save_Volume;
-}
-
 public class SaveLoad : MonoBehaviour
 {
     [SerializeField] private Slider volumeSlider;
-    [SerializeField] private int currentLV;
+    [SerializeField] private int currentLV  = 0;
+    [SerializeField] private float volumeValue;
     [SerializeField] private SpawnTile_Script spawnTiles;
     [SerializeField] private MapData[] mapData;
 
     private void Awake()
     {
-        //mapData = GetAllInstances<MapData>();
-        LoadJson();
+        LoadData();
         spawnTiles.mapData = mapData[currentLV];
     }
-    public void SaveJson()
+
+    public void SaveData()
     {
-        // Tạo đối tượng SaveData và gán giá trị
-        SaveData data = new SaveData();
-        data.save_Volume = volumeSlider.value;
-        data.save_currenLV = currentLV;
+        string filePath = Application.persistentDataPath + "/data.bin";
 
-        // Chuyển đối tượng SaveData thành chuỗi JSON
-        string json = JsonUtility.ToJson(data, true);
+        using (BinaryWriter writer = new BinaryWriter(File.Open(filePath, FileMode.Create)))
+        {
+            writer.Write(currentLV);
+            writer.Write(volumeValue);
+        }
 
-        // Lưu chuỗi JSON vào file
-        File.WriteAllText(Application.dataPath + "/SaveDataFile.json", json);
-        Debug.Log("SAVE");
-        Debug.Log(json);
+        Debug.Log("Data saved!");
     }
 
-    public void LoadJson()
-    {
-        // Đọc file JSON 
-        string json = File.ReadAllText(Application.dataPath + "/SaveDataFile.json");
 
-        // Tạo đối tượng SaveData và gán giá trị lấy được
-        SaveData data = JsonUtility.FromJson<SaveData>(json);
-        volumeSlider.value = data.save_Volume;
-        currentLV = data.save_currenLV;
-        Debug.Log("LOAD");
-        Debug.Log(json);
+    public void LoadData()
+    {
+        string filePath = Application.persistentDataPath + "/data.bin";
+
+        if (File.Exists(filePath))
+        {
+            using (BinaryReader reader = new BinaryReader(File.Open(filePath, FileMode.Open)))
+            {
+                currentLV = reader.ReadInt32();
+                volumeValue = reader.ReadSingle();
+
+                volumeSlider.value = volumeValue;
+            }
+
+            Debug.Log("Data loaded!");
+            Debug.Log(filePath);
+        }
+        else
+        {
+            Debug.Log("No saved data found!");
+            SaveData();
+        }
+    }
+
+    public void Slider()
+    {
+        volumeValue = volumeSlider.value;
     }
 
     public void NextLVSave()
@@ -59,22 +68,8 @@ public class SaveLoad : MonoBehaviour
         else
             currentLV++;
 
-        SaveJson();
-        LoadJson();
+        SaveData();
+        LoadData();
     }
 
-
-    //public static T[] GetAllInstances<T>() where T : MapData
-    //{
-    //    string[] guids = AssetDatabase.FindAssets("t:" + typeof(T).Name);
-    //    T[] a = new T[guids.Length];
-    //    for (int i = 0; i < guids.Length; i++)
-    //    {
-    //        string path = AssetDatabase.GUIDToAssetPath(guids[i]);
-    //        a[i] = AssetDatabase.LoadAssetAtPath<T>(path);
-    //    }
-
-    //    return a;
-
-    //}
 }

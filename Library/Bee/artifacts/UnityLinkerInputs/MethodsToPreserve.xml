@@ -16,7 +16,6 @@
 			<method name="PlayButton"/>
 			<method name="PlayButton"/>
 			<method name="PlayButton"/>
-			<method name="SaveJson"/>
 		</type>
 		<type fullname="SaveLoad">
 			<method name="NextLVSave"/>

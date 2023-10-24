@@ -198,8 +198,8 @@ UnityEngine.Application::get_isBatchMode
 UnityEngine.Application::get_isFocused
 UnityEngine.Application::get_isPlaying
 UnityEngine.Application::get_targetFrameRate
-UnityEngine.Application::get_dataPath
 UnityEngine.Application::get_identifier
+UnityEngine.Application::get_persistentDataPath
 UnityEngine.Application::OpenURL
 UnityEngine.Application::set_targetFrameRate
 UnityEngine.Application::get_platform
@@ -506,8 +506,6 @@ UnityEngine.Internal.InputUnsafeUtility::GetAxis
 UnityEngine.Internal.InputUnsafeUtility::GetAxisRaw
 UnityEngine.Internal.InputUnsafeUtility::GetAxisRaw__Unmanaged
 UnityEngine.Internal.InputUnsafeUtility::GetAxis__Unmanaged
-UnityEngine.JsonUtility::FromJsonInternal
-UnityEngine.JsonUtility::ToJsonInternal
 UnityEngine.Light::get_useColorTemperature_Injected
 UnityEngine.Light::get_bounceIntensity_Injected
 UnityEngine.Light::get_colorTemperature_Injected
@@ -717,7 +715,7 @@ UnityEngine.ResourcesAPIInternal::FindShaderByName
 UnityEngine.ScalableBufferManager::get_heightScaleFactor
 UnityEngine.ScalableBufferManager::get_widthScaleFactor
 UnityEngine.ScalableBufferManager::ResizeBuffers
-UnityEngine.SceneManagement.Scene::GetBuildIndexInternal
+UnityEngine.SceneManagement.Scene::GetNameInternal
 UnityEngine.SceneManagement.SceneManager::get_sceneCount
 UnityEngine.SceneManagement.SceneManager::GetActiveScene_Injected
 UnityEngine.SceneManagement.SceneManager::GetSceneAt_Injected

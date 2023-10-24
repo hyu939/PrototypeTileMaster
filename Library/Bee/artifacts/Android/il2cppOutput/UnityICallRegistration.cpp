@@ -846,13 +846,13 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Application_get_targetFrameRate();
 		Register_UnityEngine_Application_get_targetFrameRate();
 
-		//System.String UnityEngine.Application::get_dataPath()
-		void Register_UnityEngine_Application_get_dataPath();
-		Register_UnityEngine_Application_get_dataPath();
-
 		//System.String UnityEngine.Application::get_identifier()
 		void Register_UnityEngine_Application_get_identifier();
 		Register_UnityEngine_Application_get_identifier();
+
+		//System.String UnityEngine.Application::get_persistentDataPath()
+		void Register_UnityEngine_Application_get_persistentDataPath();
+		Register_UnityEngine_Application_get_persistentDataPath();
 
 		//System.Void UnityEngine.Application::OpenURL(System.String)
 		void Register_UnityEngine_Application_OpenURL();
@@ -2236,18 +2236,6 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.Internal.InputUnsafeUtility
 
-	//Start Registrations for type : UnityEngine.JsonUtility
-
-		//System.Object UnityEngine.JsonUtility::FromJsonInternal(System.String,System.Object,System.Type)
-		void Register_UnityEngine_JsonUtility_FromJsonInternal();
-		Register_UnityEngine_JsonUtility_FromJsonInternal();
-
-		//System.String UnityEngine.JsonUtility::ToJsonInternal(System.Object,System.Boolean)
-		void Register_UnityEngine_JsonUtility_ToJsonInternal();
-		Register_UnityEngine_JsonUtility_ToJsonInternal();
-
-	//End Registrations for type : UnityEngine.JsonUtility
-
 	//Start Registrations for type : UnityEngine.Light
 
 		//System.Boolean UnityEngine.Light::get_useColorTemperature_Injected(System.IntPtr)
@@ -3222,9 +3210,9 @@ void RegisterAllStrippedInternalCalls()
 
 	//Start Registrations for type : UnityEngine.SceneManagement.Scene
 
-		//System.Int32 UnityEngine.SceneManagement.Scene::GetBuildIndexInternal(System.Int32)
-		void Register_UnityEngine_SceneManagement_Scene_GetBuildIndexInternal();
-		Register_UnityEngine_SceneManagement_Scene_GetBuildIndexInternal();
+		//System.String UnityEngine.SceneManagement.Scene::GetNameInternal(System.Int32)
+		void Register_UnityEngine_SceneManagement_Scene_GetNameInternal();
+		Register_UnityEngine_SceneManagement_Scene_GetNameInternal();
 
 	//End Registrations for type : UnityEngine.SceneManagement.Scene
 
