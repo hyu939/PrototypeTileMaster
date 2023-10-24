@@ -8,7 +8,6 @@ using UnityEngine.SocialPlatforms.Impl;
 
 public class Collector : MonoBehaviour
 {
-    //public static Collector Instance;
     public int[] colectTilesId = new int[0];
     private int size;
     [SerializeField]private Score score;
@@ -17,22 +16,14 @@ public class Collector : MonoBehaviour
     [SerializeField] private SpawnTile_Script spawn_Script;
     private int tileCollected = 0;
 
+    public GameObject winWindow, loseWindow;
+
     void Awake()
     {
         colectTilesId = new int[0];
         score = GameObject.FindWithTag("Spawn").GetComponent<Score>();
         collector_Spawn = GameObject.FindWithTag("Spawn").GetComponent<Collector_Spawn>();
         spawn_Script = GameObject.FindWithTag("Spawn").GetComponent<SpawnTile_Script>();
-
-        //if (Instance == null)
-        //{
-        //    Instance = this;
-        //    DontDestroyOnLoad(gameObject);
-        //}
-        //else
-        //{
-        //    Destroy(gameObject);
-        //}
     }
 
     public void TilesArray(int id)
@@ -74,7 +65,8 @@ public class Collector : MonoBehaviour
 
         if(size >= 6)
         {
-            Debug.Log("GameOver");
+            GamePause.Instance.PauseGame();
+            loseWindow.SetActive(true);
         }
 
         WinCondition();
@@ -104,7 +96,8 @@ public class Collector : MonoBehaviour
         tileCollected++;
         if (tileCollected == spawn_Script.mapData.tiles.Sum(tiles => tiles.chance)*3)
         {
-            Debug.Log("WWWWWWWWWWWINNNNNNNNN");
+            GamePause.Instance.PauseGame();
+            winWindow.SetActive(true);
         }
     }
 

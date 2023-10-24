@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6238397821936633602}
   - component: {fileID: 1112804909605642499}
   - component: {fileID: 2551198878586155047}
-  - component: {fileID: 8436377099861652760}
+  - component: {fileID: 3258078046707026169}
   m_Layer: 8
   m_Name: Fish
   m_TagString: Untagged
@@ -135,7 +135,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &8436377099861652760
+--- !u!114 &3258078046707026169
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -147,4 +147,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6505063ad7a956741b1452824e53a05d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 11
+  id: 0

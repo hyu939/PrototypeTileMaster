@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class Score : MonoBehaviour
 {
-    [SerializeField] private TextMeshProUGUI uiScore;
+    [SerializeField] private TextMeshProUGUI uiScore, winScore, loseScore;
     [SerializeField] private TextMeshProUGUI uiCombo;
     private int score = 0;
     private int combo = 1;
@@ -31,6 +31,8 @@ public class Score : MonoBehaviour
         IncreaseScore();
         ActivateDoublePoints();
         uiScore.text = score.ToString();
+        winScore.text = score.ToString();
+        loseScore.text = score.ToString();
     }
 
     public void IncreaseScore()

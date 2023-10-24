@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3859713001709904027}
   - component: {fileID: 1396469620640171783}
   - component: {fileID: 2365941140207938917}
-  - component: {fileID: 3473703061184299685}
+  - component: {fileID: 8041183830637523909}
   m_Layer: 8
   m_Name: Pumpkin
   m_TagString: Untagged
@@ -135,7 +135,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &3473703061184299685
+--- !u!114 &8041183830637523909
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -147,4 +147,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6505063ad7a956741b1452824e53a05d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 14
+  id: 0

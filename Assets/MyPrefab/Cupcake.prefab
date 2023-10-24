@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8654229574811041607}
   - component: {fileID: 3419822696150240895}
   - component: {fileID: 6587359390144388897}
-  - component: {fileID: 4424681558695052312}
+  - component: {fileID: -1397324821246582809}
   m_Layer: 8
   m_Name: Cupcake
   m_TagString: Untagged
@@ -135,7 +135,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &4424681558695052312
+--- !u!114 &-1397324821246582809
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -147,4 +147,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6505063ad7a956741b1452824e53a05d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 8
+  id: 0

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8365390333165637754}
   - component: {fileID: 7725584072665097298}
   - component: {fileID: 3588318287788164488}
-  - component: {fileID: 6781383872260518130}
+  - component: {fileID: 3467627150772965100}
   m_Layer: 8
   m_Name: CoffeCup
   m_TagString: Untagged
@@ -135,7 +135,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &6781383872260518130
+--- !u!114 &3467627150772965100
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -147,4 +147,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6505063ad7a956741b1452824e53a05d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 6
+  id: 0

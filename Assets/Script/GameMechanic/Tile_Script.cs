@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEditor;
 using System.Collections.ObjectModel;
 
-public class Tile_Script : MonoBehaviour 
+public class Tile_Script : MonoBehaviour
 {
     public int id;
     private Collector collector;
@@ -17,7 +17,10 @@ public class Tile_Script : MonoBehaviour
     }
     private void OnMouseDown()
     {
-        collector.TilesArray(id);
-        Destroy(gameObject);
+        if (!GamePause.Instance.isPause)
+        {
+            collector.TilesArray(id);
+            Destroy(gameObject);
+        }
     }
 }

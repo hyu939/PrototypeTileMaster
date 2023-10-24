@@ -14,6 +14,7 @@ public class Timer : MonoBehaviour
 
     private int remainingDuration;
 
+    public GameObject loseWindow;
 
     private void Awake()
     {
@@ -50,10 +51,14 @@ public class Timer : MonoBehaviour
 
     private IEnumerator UpdateTimer()
     {
-        while (remainingDuration > 0)
+        while (remainingDuration > 0 )
         {
             UpdateUI(remainingDuration);
-            remainingDuration--;
+            if (!GamePause.Instance.isPause)
+            {
+                remainingDuration--;
+
+            }
             yield return new WaitForSeconds(1f);
         }
         End();
@@ -68,6 +73,7 @@ public class Timer : MonoBehaviour
     {
         ResetTimer();
         Debug.Log("GAMEOVER");
+        loseWindow.SetActive(true);
     }
 
 

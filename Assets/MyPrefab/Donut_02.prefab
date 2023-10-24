@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5419965437584019873}
   - component: {fileID: 5015967299510449372}
   - component: {fileID: 8256354646863533299}
-  - component: {fileID: 1522426002298301743}
+  - component: {fileID: -5375456600599338807}
   m_Layer: 8
   m_Name: Donut_02
   m_TagString: Untagged
@@ -135,7 +135,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1522426002298301743
+--- !u!114 &-5375456600599338807
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -147,4 +147,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6505063ad7a956741b1452824e53a05d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 10
+  id: 0

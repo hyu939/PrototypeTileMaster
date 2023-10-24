@@ -377,6 +377,8 @@
 "Assets/Access/TutorialInfo/Scripts/Readme.cs"
 "Assets/Script/GameMechanic/Collector.cs"
 "Assets/Script/GameMechanic/Collector_Spawn.cs"
+"Assets/Script/GameMechanic/GamePause.cs"
+"Assets/Script/GameMechanic/SaveLoad.cs"
 "Assets/Script/GameMechanic/Score.cs"
 "Assets/Script/GameMechanic/SpawnTile_Script.cs"
 "Assets/Script/GameMechanic/Tile_Script.cs"
